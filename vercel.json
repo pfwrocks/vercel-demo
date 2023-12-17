@@ -4,7 +4,7 @@
             "runtime": "python3.9"
         }
     },
-    "cron": [
+    "crons": [
         {
             "path": "/api/cron",
             "expression": "* 5 * * *"
