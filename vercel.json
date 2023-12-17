@@ -1,0 +1,13 @@
+{
+    "functions": {
+        "api/cron.py": {
+            "runtime": "python3.9"
+        }
+    },
+    "cron": [
+        {
+            "path": "/api/cron",
+            "expression": "* 5 * * *"
+        }
+    ]
+}
